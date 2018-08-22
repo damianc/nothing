@@ -3,7 +3,7 @@ Object.defineProperty(Array.prototype, 'nothing', {
 		var that = this;
 
 		return {
-			atTheBeginnig: function () {
+			atTheBeginning: function () {
 				return that.unshift(that.shift());
 			},
 			atTheEnd: function () {
