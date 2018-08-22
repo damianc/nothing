@@ -6,8 +6,8 @@
 
 | Method                          | Description          |
 |---------------------------------|----------------------|
-| [].nothing.atTheBeginning()     | Puts a removed array's first item back into the beginning of the array. |
-| [].nothing.atTheEnd()           | Puts a removed array's last item back into the end of the array.        |
+| [].nothing.atTheBeginning()     | Puts a removed first item of an array back into the beginning of the array. |
+| [].nothing.atTheEnd()           | Puts a removed last item of an array back into the end of the array.        |
 
 # Usage
 
