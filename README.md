@@ -8,6 +8,7 @@
 |---------------------------------|----------------------|
 | [].nothing.atTheBeginning()     | Puts a removed first item of an array back into the beginning of the array. |
 | [].nothing.atTheEnd()           | Puts a removed last item of an array back into the end of the array.        |
+| [].nothing.atThePosition(n)     | Puts a removed n-th item of an array back into the array at the n-th index. |
 
 # Usage
 

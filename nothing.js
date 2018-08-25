@@ -8,7 +8,10 @@ Object.defineProperty(Array.prototype, 'nothing', {
 			},
 			atTheEnd: function () {
 				return that.push(that.pop());
-			}
+			},
+            atThePosition: function (index) {
+                return that.splice(index, 0, that.splice(index, 1)[0]);
+            }
 		};
 	}
 });
