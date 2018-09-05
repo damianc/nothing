@@ -1,0 +1,23 @@
+{
+  "name": "nothing",
+  "version": "1.0.0",
+  "description": "**nothing** is a lightweight library allowing you to do nothing with an array.",
+  "main": "nothing.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianc/nothing.git"
+  },
+  "author": "damianc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianc/nothing/issues"
+  },
+  "homepage": "https://github.com/damianc/nothing#readme",
+  "devDependencies": {
+    "expect": "^23.5.0",
+    "mocha": "^5.2.0"
+  }
+}
