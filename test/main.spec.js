@@ -1,5 +1,5 @@
 var expect = require('expect');
-var nothing = require('../nothing');
+var nothing = require('../src/nothing');
 
 describe('# OBJECT OPERATIONS', function () {
 	it('should do nothing at the beginning of an array', function () {
