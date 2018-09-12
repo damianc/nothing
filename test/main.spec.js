@@ -25,6 +25,14 @@ describe('# OBJECT OPERATIONS', function () {
 		arrCopy.nothing.atTheEnd();
 		arrCopy.should.be.eql(arrOriginal);
 	});
+
+	it('should do nothing somewhere within an array', function () {
+		var arrOriginal = [1, 2, 3, 4];
+		var arrCopy = Array.from(arrOriginal);
+		
+		arrCopy.nothing.atARandomPosition();
+		arrCopy.should.be.eql(arrOriginal);
+	});
 });
 
 describe('# INTERNAL OPERATIONS', function () {

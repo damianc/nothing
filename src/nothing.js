@@ -11,6 +11,12 @@ Object.defineProperty(Array.prototype, 'nothing', {
             },
             atThePosition: function (index) {
                 return that.splice(index, 0, that.splice(index, 1)[0]);
+            },
+            atARandomPosition: function () {
+                var maxNum = that.length - 1;
+                var randomPosition = Math.round(Math.random() * maxNum);
+                
+                return this.atThePosition(randomPosition);
             }
         };
     }

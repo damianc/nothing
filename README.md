@@ -1,6 +1,6 @@
 # The what is that?
 
-**nothing** is a lightweight library allowing you to do nothing with an array.
+**nothing** is a trivial library allowing you to do nothing with an array.
 
 # API
 
@@ -9,6 +9,7 @@
 | [].nothing.atTheBeginning()     | Puts a removed first item of an array back into the beginning of the array. |
 | [].nothing.atTheEnd()           | Puts a removed last item of an array back into the end of the array.        |
 | [].nothing.atThePosition(n)     | Puts a removed n-th item of an array back into the array at the n-th index. |
+| [].nothing.atARandomPosition()  | Puts a removed random item of an array back into the array at its index.    |
 
 # Usage
 
