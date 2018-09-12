@@ -3,22 +3,26 @@ Object.defineProperty(Array.prototype, 'nothing', {
         var that = this;
 
         return {
-            atTheBeginning: function () {
+            atTheBeginning() {
                 return that.unshift(that.shift());
             },
-            atTheEnd: function () {
+
+            atTheEnd() {
                 return that.push(that.pop());
             },
-            atThePosition: function (index) {
+
+            atThePosition(index) {
                 return that.splice(index, 0, that.splice(index, 1)[0]);
             },
-            atARandomPosition: function () {
+
+            atARandomPosition() {
                 var maxNum = that.length - 1;
                 var randomPosition = Math.round(Math.random() * maxNum);
 
                 return this.atThePosition(randomPosition);
             },
-            nowhere: function () {
+            
+            nowhere() {
                 return that;
             }
         };
