@@ -15,8 +15,11 @@ Object.defineProperty(Array.prototype, 'nothing', {
             atARandomPosition: function () {
                 var maxNum = that.length - 1;
                 var randomPosition = Math.round(Math.random() * maxNum);
-                
+
                 return this.atThePosition(randomPosition);
+            },
+            nowhere: function () {
+                return that;
             }
         };
     }

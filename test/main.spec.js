@@ -33,6 +33,14 @@ describe('# OBJECT OPERATIONS', function () {
 		arrCopy.nothing.atARandomPosition();
 		arrCopy.should.be.eql(arrOriginal);
 	});
+
+	it('should do nothing anywhere within an array', function () {
+		var arrOriginal = [1, 2, 3, 4];
+		var arrCopy = Array.from(arrOriginal);
+		
+		arrCopy.nothing.nowhere();
+		arrCopy.should.be.eql(arrOriginal);
+	});
 });
 
 describe('# INTERNAL OPERATIONS', function () {
@@ -55,6 +63,11 @@ describe('# INTERNAL OPERATIONS', function () {
 
 		spySplice.should.be.calledOn(arr);
 		spySplice.should.have.callCount(2);
+
+		arr.nothing.atARandomPosition();
+
+		spySplice.should.be.calledOn(arr);
+		spySplice.should.have.callCount(4);
 	});
 
 	it('should call push() and pop() methods of the Array.prototype object', function () {

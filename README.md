@@ -10,6 +10,7 @@
 | [].nothing.atTheEnd()           | Puts a removed last item of an array back into the end of the array.        |
 | [].nothing.atThePosition(n)     | Puts a removed n-th item of an array back into the array at the n-th index. |
 | [].nothing.atARandomPosition()  | Puts a removed random item of an array back into the array at its index.    |
+| [].nothing.nowhere()            | Performs no operation anywhere within an array.                             |
 
 # Usage
 
