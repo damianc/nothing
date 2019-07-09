@@ -24,6 +24,10 @@ Object.defineProperty(Array.prototype, 'nothing', {
             
             nowhere() {
                 return that;
+            },
+
+            withTheFirstItem() {
+                return this.atThePosition(0);
             }
         };
     }
