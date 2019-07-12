@@ -19,7 +19,7 @@ Object.defineProperty(Array.prototype, 'nothing', {
                 var maxNum = that.length - 1;
                 var randomPosition = Math.round(Math.random() * maxNum);
 
-                return this.atThePosition(randomPosition);
+                return that.atThePosition(randomPosition);
             },
             
             nowhere() {
@@ -27,7 +27,7 @@ Object.defineProperty(Array.prototype, 'nothing', {
             },
 
             withTheFirstItem() {
-                return this.atThePosition(0);
+                return that.atThePosition(0);
             }
         };
     }
