@@ -11,6 +11,7 @@
 | [].nothing.atThePosition(n)     | Puts a removed n-th item of an array back into the array at the n-th index. |
 | [].nothing.atARandomPosition()  | Puts a removed random item of an array back into the array at its index.    |
 | [].nothing.nowhere()            | Performs no operation anywhere within an array.                             |
+| [].nothing.withTheFirstItem()   | Puts the removed first item of an array back into the array at 1st index.   |
 
 # Usage
 
