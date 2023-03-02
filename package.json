@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/damianc/nothing#readme",
   "devDependencies": {
-    "mocha": "^5.2.0",
+    "mocha": "^10.2.0",
     "should": "^13.2.3",
     "should-spies": "^1.1.0"
   }
